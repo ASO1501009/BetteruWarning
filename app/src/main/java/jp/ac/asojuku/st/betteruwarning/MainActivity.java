@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                             builder.setSmallIcon(android.R.drawable.ic_dialog_info)
                                     .setContentTitle("15%以下です")
                                     .setWhen(System.currentTimeMillis())
-                                    .setPriority(Notification.PRIORITY_DEFAULT)
+                                    .setPriority(Notification.PRIORITY_HIGH)
                                     .setAutoCancel(true)
                                     .setDefaults(Notification.DEFAULT_SOUND)
                                     .setContentIntent(contentIntent);
